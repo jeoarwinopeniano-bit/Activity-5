@@ -55,7 +55,7 @@ img {
 }
 
 .hero {
-  background: linear-gradient(135deg, #A8B5A2, #ffffff);
+  background: #A8B5A2;
   min-height: 500px;
   display: flex;
   align-items: center;
