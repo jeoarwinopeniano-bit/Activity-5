@@ -71,11 +71,7 @@ img {
 
 // Hero section
 .hero {
-    background: linear-gradient(
-        135deg,
-        $secondary-color,
-        #ffffff
-    );
+    background: $secondary-color;
 
     min-height: 500px;
     display: flex;
