@@ -1,0 +1,19 @@
+// Mobile and tablet layout
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+// Large screen layout
+@mixin desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}

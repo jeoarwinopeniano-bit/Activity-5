@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Art Gallery</a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+            ☰
+        </button>
+
+        <nav class="nav" id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="small-title">WELCOME TO OUR GALLERY</p>
+
+                <h1>Discover Beautiful Art</h1>
+
+                <p id="hero-text">
+                    Explore creative artworks and discover amazing artists
+                    from different places.
+                </p>
+
+                <button id="change-text-button" class="primary-btn">
+                    Explore Gallery
+                </button>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+
+            <div class="section-title">
+                <p>EXPLORE</p>
+                <h2>What We Offer</h2>
+            </div>
+
+            <div class="featurecard">
+
+                <!-- Card 1 -->
+                <article class="contentcard">
+                   <img src="img/The Starry Night.jpg" alt="Artwork" class="card-image">
+
+                    <h2>The Starry Night</h2>
+
+                    <p>The Starry Night was painted by the Dutch post-impressionist Vincent van Gogh in June 1889.</p>
+                    <p>The artwork depicts a swirling night sky filled with stars over a quiet town, showcasing Van Gogh's unique style and emotional depth.</p>
+
+                    <button class="learn-more-button">
+                        Learn More
+                    </button>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="contentcard">
+                    <img src="img/The Scream.jpg" alt="Artwork" class="card-image">
+
+                    <h2>The Scream</h2>
+
+                    <p>The Scream was created by the Norwegian artist Edvard Munch in 1893.</p>
+                    <p>The artwork is an expressionist masterpiece that captures the emotional turmoil and existential dread of modern life.</p>
+
+                    <button class="learn-more-button">
+                        Learn More
+                    </button>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="contentcard">
+                    <img src="img/Guernica.jpg" alt="Artwork" class="card-image">
+
+                    <h2>Guernica</h2>
+
+                    <p>Guernica was created by the famous Spanish artist Pablo Picasso in 1937.</p>
+                    <p>It is a powerful anti-war mural that serves as a universal symbol of the suffering, chaos, and tragedy inflicted on innocent civilians by war and fascism.</p>
+
+                    <button class="learn-more-button">
+                        Learn More
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <div class="about-content">
+                <p class="small-title">ABOUT US</p>
+
+                <h2>Art Brings People Together</h2>
+
+                <p>
+                    Our gallery is a simple space where people can enjoy
+                    creative artwork and learn about different artists.
+                </p>
+
+                <button class="primary-btn">
+                    Learn More
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © <span id="year"></span> Art Gallery. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
